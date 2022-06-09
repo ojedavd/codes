@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-size: 36px;
+}
+
+
+.import{
+  background-color:steelblue;
+  color:white;
+  font-family: 'Arial';
+  width: 250px;
+  height: 60px;
+  overflow: visible;
+  .entero {
+    display: inline;
+
+  }
+
+  .decimal {
+    display: inline;
+  }
+}
