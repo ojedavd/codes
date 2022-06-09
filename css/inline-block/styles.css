@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-size: 25px;
+}
+
+/* Ej: div, section 
+*  display: block por defecto
+*/
+.block {
+  background-color: teal;
+  margin-bottom: 30px;
+  color: white;
+}
+
+/* Ej: <a> 
+*  no pueden aplicar 
+*   - width ni height
+*   - padding ni margin vertical
+*  display: block para convertir en elemento block
+*  display: inline-block para hacerlo hibrido
+*/
+.inline { 
+  display: inline-block; 
+  background-color: crimson;
+  color: white;
+}
+
+/* solo se puede centrar un elemento con margin auto si tiene 
+*  - width definido
+*  - display: block
+*/
+
+.button{
+  display: inline-block;
+  background-color:steelblue;
+  color:white;
+  text-decoration: none;
+  font-family: 'Arial';
+  padding: 15px 40px;
+  border-radius: 20px;
+  /*margin:50px;*/
+  width: 300px;
+  margin: 0 auto;
+}
