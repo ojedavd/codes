@@ -1,0 +1,32 @@
+{
+  callback: fn (this.myFunction),
+  args: data
+}
+
+
+class queueEngine {
+
+  isStarted = false;
+
+  enqueue(data) {
+    this.collection.push(data);
+    if (!this.isStarted) {
+      this.start();
+    }
+  }
+
+  async start(): void {
+    this.started = true;
+
+    while (this.collection.length !== 0) {
+      const [functionInfo] = this.collection;
+
+      await functionInfo.callback(functionInfo.args);
+
+      this.collection.shift();
+    }
+
+    this.started = false;
+  }
+  
+}

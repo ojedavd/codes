@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@types/nodemailer": "^6.4.4",
+    "cloudmailin": "^0.0.3",
+    "nodemailer": "^6.7.5"
+  },
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "main": "nodemailer.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
