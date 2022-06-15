@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.box-1{
+    width: 120px;
+    height: 120px;
+    background-color: skyblue;
+    border: 2px solid black;
+}
+
+
