@@ -1,0 +1,23 @@
+p::first-letter {
+  color: red;
+}
+
+p::first-line {
+  color: blue;
+}
+
+p::selection {
+  background-color: limegreen;
+}
+
+h1::after {
+  content: ".";
+}
+
+h1::before {
+  content: "Ejemplo de ";
+}
+
+#ejemplo {
+  max-width: 250px;
+}

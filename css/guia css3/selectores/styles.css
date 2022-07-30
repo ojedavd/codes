@@ -1,0 +1,19 @@
+a[href*="ejemplo"] {
+  color: brown;
+}
+
+a[href$=".php"] {
+  color: lightslategrey;
+}
+
+a[href^="mailto"] {
+  color: tomato;
+}
+
+h1~h2 {
+  color: green;
+}
+
+h1 + h2 {
+  color: red;
+}

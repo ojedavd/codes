@@ -1,0 +1,8 @@
+.ejemplo {
+  background-color: blue;
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 1px solid coral;
+  column-width: 50px;
+  word-wrap: break-word;
+}

@@ -1,0 +1,20 @@
+h3:not(.rojo) {
+  font-size: 48px;
+}
+
+div > p:last-of-type {
+  color: green;
+}
+
+div > p:first-of-type {
+  color: blue;
+}
+
+div > p:nth-of-type(even) {
+  color: blue;
+}
+
+div > ul > li:nth-of-type(even) {
+  color: blue;
+  font-size: 22px;
+}
